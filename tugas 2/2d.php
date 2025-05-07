@@ -36,13 +36,14 @@
 
 for ($i = 1; $i <= 5; $i++){
     echo '<div class="row">';
-    for ($j = 1; $j <= 5; $j++){
+    for ($j = 1; $j <= 10; $j++){
         $class = ($i + $j) % 2 == 0 ? 'hitam' : 'putih';
         echo "<div class='kotak $class'></div>";
         
     }
     echo "</div>";
 }
+
 
 ?>
 </body>
